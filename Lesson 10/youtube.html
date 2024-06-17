@@ -3,22 +3,45 @@
   <head>
     <title>Youtube.com Clone</title>
     <link rel="stylesheet" href="CSS/youtube.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <input class="search-bar" type="text" placeholder="Search" />
     <div class="video-preview">
-      <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="" />
-      <p class="video-title">
-        Talking Tech and AI with Google CEO Sundar Pichai!
-      </p>
-      <p class="video-author">Marques Brownlee</p>
-      <p class="video-stats">3.4M views &#183; 6 months ago</p>
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="" />
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pic/channel-1.jpeg" />
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">Marques Brownlee</p>
+          <p class="video-stats">3.4M views &#183; 6 months ago</p>
+        </div>
+      </div>
     </div>
     <div class="video-preview">
-      <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="" />
-      <p class="video-title">Try Not To Laugh Challenge #9</p>
-      <p class="video-author">Markiplier</p>
-      <p class="video-stats">19M views &#183; 4 years ago</p>
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="" />
+      </div>
+      <div class="channel-picture">
+        <img class="profile-picture" src="channel-pic/channel-2.jpeg" />
+      </div>
+      <div class="video-info">
+        <p class="video-title">Try Not To Laugh Challenge #9</p>
+        <p class="video-author">Markiplier</p>
+        <p class="video-stats">19M views &#183; 4 years ago</p>
+      </div>
     </div>
   </body>
 </html>
