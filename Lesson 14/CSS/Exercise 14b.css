@@ -1,0 +1,9 @@
+.right-sidebar {
+  width: 100px;
+  color: white;
+  position: fixed;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+  background-color: green;
+}

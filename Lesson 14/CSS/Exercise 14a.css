@@ -1,0 +1,7 @@
+.sticky {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
