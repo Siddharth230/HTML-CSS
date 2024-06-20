@@ -1,0 +1,21 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+.div1 {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  background-color: black;
+  color: white;
+}
+.div2 {
+  width: 200px;
+  background-color: lightblue;
+}

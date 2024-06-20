@@ -1,0 +1,35 @@
+.inbox {
+  width: 400px;
+  height: 100px;
+  font-family: Arial;
+  color: gray;
+}
+.mail {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+}
+.sender-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.mail-detail {
+  margin-left: 8px;
+  flex: 1;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+.sender-name,
+.mail-topic {
+  font-weight: bold;
+  line-height: 12px;
+  color: black;
+}
+.mail-topic {
+  margin-bottom: 4px;
+}
